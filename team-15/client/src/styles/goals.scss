@@ -1,0 +1,29 @@
+.main-div {
+    width: 100%;
+    background: linear-gradient(270deg, #003974 0%, #000000 100%);
+    min-height: 100vh;
+    flex-wrap: wrap;
+    color: white;
+    padding: 20px;}
+    .container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+.heading{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 90px;
+line-height: 144px;
+color: white;
+padding: 10px;
+}
+.text-data
+{
+    width: 50%;
+    height: 250px;
+    background: rgba(255, 255, 255, 0.25);
+    text-align: center;
+    font-size: 150px;
+}

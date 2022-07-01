@@ -1,0 +1,42 @@
+.maincontainerlanding {
+  width: 100%;
+  color: white;
+
+  .main {
+    min-height: 100vh;
+    background: linear-gradient(270deg, #003974 0%, #000000 100%);
+    border-left: 100px solid rgba(36, 36, 36, 0.9);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .card {
+      border-radius: 50%;
+      margin: 10px 30px;
+      height: 12rem;
+      width: 12rem;
+      background: rgba(255, 255, 255, 0.25);
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 2px solid white;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      span {
+        margin-left: 10px;
+        font-size: 1rem;
+        font-weight: 500;
+      }
+      transition: 0.2s ease;
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.firstsection {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+  color: white;
+  .details {
+    display: flex;
+    flex-direction: row;
+    .image {
+      img {
+        border-radius: 50%;
+        height: 180px;
+        width: 180px;
+      }
+    }
+    .personaldetails {
+      display: flex;
+      flex-direction: column;
+      margin-left: 40px;
+      .name {
+        font-size: 2rem;
+        font-weight: 500;
+      }
+      .position {
+        font-size: 1.3rem;
+      }
+      .email,
+      .phone {
+        font-size: 1rem;
+      }
+    }
+  }
+  .charts {
+    display: flex;
+    flex-direction: row;
+    .section {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+.secondsection {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .timelineheading {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  .timelineitem {
+    color: white;
+  }
+}
