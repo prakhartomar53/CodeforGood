@@ -59,6 +59,7 @@ app.use(
 const db = process.env.MONGO_DB_URI;
 
 app.get("/welcome", (req, res) => {
+  res.send('backend is running');
   res.status(200).json({
     message: "Welcome to my API",
   });
